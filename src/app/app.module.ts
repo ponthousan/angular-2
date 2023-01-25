@@ -20,6 +20,6 @@ export class AppModule {
   constructor(private injector: Injector) {}
   ngDoBootstrap() {
     const el = createCustomElement(AppComponent, {injector: this.injector});
-    customElements.define('ocp-application', el);
+    customElements.define('second-application', el);
   }
 }
